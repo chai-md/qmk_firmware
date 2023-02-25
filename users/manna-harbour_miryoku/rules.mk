@@ -10,6 +10,8 @@ KEY_OVERRIDE_ENABLE = yes
 
 INTROSPECTION_KEYMAP_C = manna-harbour_miryoku.c # keymaps
 
+MIRYOKU_ALPHAS = QWERTY
+
 include users/manna-harbour_miryoku/custom_rules.mk
 
 include users/manna-harbour_miryoku/post_rules.mk
