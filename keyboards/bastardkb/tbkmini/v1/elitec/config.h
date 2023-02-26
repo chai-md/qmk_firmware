@@ -25,7 +25,7 @@
     { B4, E6, C6, B1, B3, B2 }
 
 /* Handedness. */
-#define MASTER_RIGHT
+#define MASTER_LEFT
 
 /* serial.c configuration (for split keyboard). */
 #define SOFT_SERIAL_PIN D0
@@ -86,8 +86,8 @@
 //#    define ENABLE_RGB_MATRIX_CYCLE_PINWHEEL
 //#    define ENABLE_RGB_MATRIX_CYCLE_SPIRAL
 //#    define ENABLE_RGB_MATRIX_DUAL_BEACON
-//#    define ENABLE_RGB_MATRIX_RAINBOW_BEACON
-//#    define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
+#    define ENABLE_RGB_MATRIX_RAINBOW_BEACON
+#    define ENABLE_RGB_MATRIX_RAINBOW_PINWHEELS
 //#    define ENABLE_RGB_MATRIX_RAINDROPS
 //#    define ENABLE_RGB_MATRIX_JELLYBEAN_RAINDROPS
 //#    define ENABLE_RGB_MATRIX_HUE_BREATHING
