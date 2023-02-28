@@ -1,8 +1,11 @@
 # MCU name
-MCU = atmega32u4
+#MCU = atmega32u4
+MCU = RP2040
+CONVERT_TO=elite_pi
 
 # Bootloader selection
-BOOTLOADER = caterina
+#BOOTLOADER = caterina
+BOOTLOADER = rp2040
 
 # Build Options
 #   change yes to no to disable
